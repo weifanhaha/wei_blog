@@ -1,5 +1,5 @@
 class BlogController < ApplicationController
-  before_actoin :find_blog, only: [:show, :edit, :update, :destroy]
+  before_action :find_blog, only: [:show, :edit, :update, :destroy]
 
   def index
   end
