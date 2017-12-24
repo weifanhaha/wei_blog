@@ -5,6 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Upload image
+gem 'carrierwave', '~> 0.11.2'
+# Modify the images uploaded
+gem "mini_magick"
+
 # slim style
 gem 'slim'
 gem "slim-rails"

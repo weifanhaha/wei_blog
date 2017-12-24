@@ -4,6 +4,11 @@
 .form-group
   = f.label :category, 'Category'
   = f.text_field :category, class: 'form-control',placeholder:"例：生活 / 旅遊"
+
+.form-group
+  = f.label :image, 'Image'
+  = f.file_field :image, as: :file, class: 'form-control'
+
 .form-group
   = f.label :content, 'Content'
   = f.text_area :content, class: 'form-control',placeholder:"寫下你的部落格！"

@@ -12,6 +12,20 @@ class BlogController < ApplicationController
   end
 
   def create
+    @blog = Blog.new blog_params
+    @blog.save!
+    flash[:success] = "新增成功：#{@blog.title}"
+    redirect_to blog_path(@blog.id)
+  rescue StandardError => e
+    flash[:error] = "出現錯誤：#{e}"
+    redirect_back fallback_location: new_blog_path
+    # if @blog.save
+    #   flash[:success] = "新增成功：#{@blog.title}"
+    #   redirect_to blog_path(@blog.id)
+    # else
+    #   flash[:error] = "出現錯誤"
+    #   render "new"
+    # end
   end
 
   def edit
