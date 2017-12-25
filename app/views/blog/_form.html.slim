@@ -11,5 +11,8 @@
 
 .form-group
   = f.label :content, 'Content'
-  = f.text_area :content, class: 'form-control',placeholder:"寫下你的部落格！"
-
+  = f.text_area :content, class: 'form-control'
+  javascript:
+    $(document).ready(function(){
+      $("textarea[name='blog[content]']").summernote({height: 800});
+    });
