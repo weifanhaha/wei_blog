@@ -6,7 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # WYSIWYG editor
-gem 'summernote-rails', require: 'summernote/rails'
+gem 'summernote-rails'
 
 # Upload image
 gem 'carrierwave', '~> 0.11.2'
