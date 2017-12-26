@@ -1,0 +1,13 @@
+.row
+  .col-sm-6.col-sm-offset-3
+    h1 This is show
+
+    h3
+      = @blog.title
+    .image
+      - if @blog.image.present?
+        = image_tag(@blog.image.url)
+    p
+      = raw @blog.content
+
+/ image_tag(@pin.avatar.medium.url, class: "thumbnail")

@@ -1,0 +1,8 @@
+h1 This is index
+
+.title-list
+  .row
+    - @blogs.each do |blog|
+      .col-sm-6
+        = blog.title
+
