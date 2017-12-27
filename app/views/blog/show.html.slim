@@ -10,4 +10,8 @@
     p
       = raw @blog.content
 
-/ image_tag(@pin.avatar.medium.url, class: "thumbnail")
+    .btn-group.pull-right
+      = link_to "Back", blog_index_path, class: "btn btn-primary", style: "color: white"
+      = link_to "Edit", edit_blog_path, class: "btn btn-default"
+      = link_to "Delete", blog_path, method: :delete, data: { confirm: "Are you sure?" },
+        class: "btn btn-default"

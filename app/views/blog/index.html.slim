@@ -1,8 +1,11 @@
-h1 This is index
 
-.title-list
-  .row
-    - @blogs.each do |blog|
-      .col-sm-6
-        = blog.title
+.row
+  .col-sm-6.col-sm-offset-3
+    h1.title This is index
+    .index-list
+      - @blogs.each do |blog|
+        .col-sm-6
+          = link_to blog do
+            .blog-btn
+              = blog.title
 
