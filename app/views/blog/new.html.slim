@@ -1,0 +1,10 @@
+.row
+  .col-sm-8.col-sm-offset-2
+    .panel.panel-default
+      .panel-heading
+        h4 Write a new article!
+      .panel-body
+        = form_for @blog, url: blog_index_path do |f|
+          = render partial: "form", locals: {f: f}
+          = f.submit 'Save', class: 'btn btn-primary'
+

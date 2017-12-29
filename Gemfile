@@ -5,15 +5,33 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# User system and authencation
+gem 'devise', '~> 4.2'
+
+# WYSIWYG editor
+gem 'summernote-rails'
+
+# Upload image
+gem 'carrierwave', '~> 0.11.2'
+# Modify the images uploaded
+gem "mini_magick"
+
+# slim style
 gem 'slim'
+gem "slim-rails"
 
-gem 'summernote'
+# use bootstrap and font awesome
+gem 'bootstrap-sass', '~> 3.3.7'
+gem "font-awesome-rails"
 
+gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+# gem 'mysql2'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

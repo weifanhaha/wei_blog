@@ -1,0 +1,12 @@
+.row
+  .col-sm-6.col-sm-offset-3
+    .index-list
+      - @blogs.each do |blog|
+        .col-sm-12
+          = link_to blog do
+            .blog-btn
+              h1
+                = blog.title
+              p
+                |  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae illum minus, quo eius dolores, obcaecati ex sunt adipisci, vel accusamus sed ipsam consequuntur doloremque incidunt harum natus provident magnam quasi.
+
