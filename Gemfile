@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# User system and authencation
+gem 'devise', '~> 4.2'
+
 # WYSIWYG editor
 gem 'summernote-rails'
 
