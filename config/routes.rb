@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   resources :blog
   root 'blog#index'
 
+  get 'pages/aboutme', to: 'pages#aboutme', as: 'aboutme'
+
 end
