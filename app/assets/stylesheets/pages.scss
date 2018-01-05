@@ -1,3 +1,286 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+@import 'import';
+/*
+ * *** You can say something about your file if you need it!
+ * Template Name
+ * Description
+ * Vertion
+ * Copyright
+ * Author
+ * Last Modified Date
+ *
+ */
+/*-------------------------*/
+/* $Catalog
+---------------------------*/
+/**
+ * Catalog
+ * Button
+ * Jumbotron
+ * Thumbnail
+ * Footer
+ * Container
+**/
+
+/*-------------------------*/
+/* $Button
+---------------------------*/
+.btn{
+  /* structure */
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 16px;
+  min-width: 64px;
+    box-sizing: border-box;
+  /* style */
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  font-family: "Helvetica", "Noto Sans TC", "Roboto", "Arial", sans-serif;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #353630;
+  background-color: #d1d2d3;
+  border: 0;
+  border-radius: 2px;
+  outline: none;
+  /* interact */
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-user-drag: none;
+    transition: background-color 0.3s;
+}
+.btn--hover,
+.btn:hover{
+  background-color: #cacbcd;
+}
+.btn--hover,
+.btn:active{
+  background-color: #cacbcd;
+}
+.btn--disabled,
+.btn--disabled:hover,
+.btn--disabled:active,
+.btn--disabled:focus{
+  color: #fff;
+  pointer-events: none;
+  background-color: #d1d2d3;
+}
+.btn.btn--primary,
+.btn.btn--secondary,
+.btn.btn--positive,
+.btn.btn--negative{
+  color: #fff;
+}
+.btn.btn--primary{
+  background-color: #f95c3c;
+}
+.btn.btn--primary.btn--hover,
+.btn.btn--primary:hover{
+  background-color: #dd5033;
+}
+.btn.btn--secondary{
+  background-color: #43484c;
+}
+.btn.btn--secondary.btn--hover,
+.btn.btn--secondary:hover{
+  background-color: #35393d;
+}
+.btn.btn--positive{
+  background-color: #3eb5ac;
+}
+.btn.btn--positive.btn--hover,
+.btn.btn--positive:hover{
+  background-color: #38a59d;
+}
+.btn.btn--negative{
+  background-color: #f84545;
+}
+.btn.btn--negative.btn--hover,
+.btn.btn--negative:hover{
+  background-color: #db3d3d;
+}
+/* Size */
+.btn.btn--lg{
+  font-size: 22px;
+  line-height: 56px;
+  height: 56px;
+  font-weight: 400;
+}
+.btn.btn--md{
+  font-size: 18px;
+  line-height: 48px;
+  height: 48px;
+}
+.btn.btn--sm{
+  font-size: 14px;
+  line-height: 32px;
+  height: 32px;
+}
+/* group */
+.btn-group .btn{
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+.btn-group--center{
+  text-align: center;
+}
+.btn-group--right{
+  text-align: right;
+}
+.btn-group--right .btn{
+  margin-right: 0;
+  margin-left: 16px;
+}
+
+/*-------------------------*/
+/* $Jumbotron
+---------------------------*/
+.jumbotron{
+  background-color: #d1d2d3;
+  padding-top: 20vh;
+  padding-bottom: 24vh;
+}
+.jumbotron--img-covered{
+  background-image: url("../images/jumbotron_bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron--img-covered:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #43484c;
+  opacity: 0.5;
+}
+.jumbotron__heading{
+  text-align: left;
+  color: #f4f4f4;
+}
+@media (max-width: 768px){
+  .jumbotron__heading{
+    font-size: 40px;
+  }
+}
+.jumbotron__heading--center{
+  text-align: center;
+}
+/*-------------------------*/
+/* $Thumbnail
+---------------------------*/
+/* imgbox */
+.imgbox{
+  width: 100%;
+  display: block;
+  overflow: hidden;
+}
+.imgbox__inner{
+  width: 100%;
+  height: 0;
+  position: relative;
+}
+.imgbox__inner-4-3{
+  padding-top: calc(100% * 3 / 4);
+}
+.imgbox__inner .image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* Thumbnail */
+.thumbnail{
+  color: #353630;
+  margin-bottom: 32px;
+}
+.thumbnail__title{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.thumbnail__preview{
+  height: 72px;
+  overflow: hidden;
+}
+.thumbnail__btn-group .btn{
+  margin-bottom: 0;
+}
+/*-------------------------*/
+/* $Footer
+---------------------------*/
+.footer{
+  padding-top: 40px;
+  padding-bottom: 64px;
+  background-color: #43484c;
+}
+.footer p{
+  color: #f4f4f4;
+  font-size: 14px;
+}
+.list{
+  color: #f4f4f4;
+  font-size: 14px;
+}
+.list__title{
+  font-size: 16px;
+  color: #f4f4f4;
+}
+.list__item{
+  display: block;
+  color: #999a94;
+  margin-bottom: 8px;
+  transition: all 0.3s;
+}
+.list__item:hover{
+  color: #f4f4f4;
+}
+
+/*-------------------------*/
+/* $Container
+---------------------------*/
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}

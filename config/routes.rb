@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   root 'blog#index'
 
   get 'pages/aboutme', to: 'pages#aboutme', as: 'aboutme'
+  get 'pages/guideline', to: 'pages#guideline', as: 'guideline'
 
 end
