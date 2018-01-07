@@ -53,3 +53,27 @@ guard 'livereload' do
   watch(%r{app/helpers/.+\.rb})
   watch(%r{config/locales/.+\.yml})
 end
+
+guard :bundler do
+  require 'guard/bundler'
+  require 'guard/bundler/verify'
+  helper = Guard::Bundler::Verify.new
+
+  files = ['Gemfile']
+  files += Dir['*.gemspec'] if files.any? { |f| helper.uses_gemspec?(f) }
+
+  # Assume files are symlinked from somewhere
+  files.each { |file| watch(helper.real_path(file)) }
+end
+
+# Sample guardfile block for Guard::Haml
+# You can use some options to change guard-haml configuration
+# output: 'public'                   set output directory for compiled files
+# input: 'src'                       set input directory with haml files
+# run_at_start: true                 compile files when guard starts
+# notifications: true                send notifictions to Growl/libnotify/Notifu
+# haml_options: { ugly: true }    pass options to the Haml engine
+
+guard :haml do
+  watch(/^.+(\.html\.haml)$/)
+end
