@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  layout "console", only: [:aboutme, :guideline]
+  layout "none", only: [:aboutme, :guideline]
 
   def aboutme
   end

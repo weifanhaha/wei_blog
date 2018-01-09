@@ -8,5 +8,5 @@
               h1
                 = blog.title
               p
-                = blog.content.truncate(50)
+                = raw_index_content(blog.content)
 

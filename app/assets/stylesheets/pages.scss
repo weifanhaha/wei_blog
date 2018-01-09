@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'import';
+
 /*
  * *** You can say something about your file if you need it!
  * Template Name
@@ -84,32 +85,32 @@
   color: #fff;
 }
 .btn.btn--primary{
-  background-color: #f95c3c;
+  background-color: $primary-color;
 }
 .btn.btn--primary.btn--hover,
 .btn.btn--primary:hover{
-  background-color: #dd5033;
+  background-color: #2b3d48;
 }
 .btn.btn--secondary{
-  background-color: #43484c;
+  background-color: $secondary-color;
 }
 .btn.btn--secondary.btn--hover,
 .btn.btn--secondary:hover{
-  background-color: #35393d;
+  background-color: #dcbb36;
 }
 .btn.btn--positive{
-  background-color: #3eb5ac;
+  background-color: $positive-color;
 }
 .btn.btn--positive.btn--hover,
 .btn.btn--positive:hover{
-  background-color: #38a59d;
+  background-color: #0f949a;
 }
 .btn.btn--negative{
-  background-color: #f84545;
+  background-color: $negative-color;
 }
 .btn.btn--negative.btn--hover,
 .btn.btn--negative:hover{
-  background-color: #db3d3d;
+  background-color: #a91c26;
 }
 /* Size */
 .btn.btn--lg{
@@ -229,7 +230,7 @@
 .footer{
   padding-top: 40px;
   padding-bottom: 64px;
-  background-color: #43484c;
+  background-color: $primary-color;
 }
 .footer p{
   color: #f4f4f4;

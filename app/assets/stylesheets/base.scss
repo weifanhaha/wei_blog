@@ -491,29 +491,39 @@ template {
 /* $Color
 ---------------------------*/
 
+$primary-color: #344f60;
+$secondary-color: #eac635;
+$positive-color: #04a6ad;
+$negative-color: #bb0b18;
+$black: #353630;
+$dark-grey: #999a94;
+$grey: #d1d2d3;
+$light-grey: #f4f4f4;
+$white: #fff;
+
 /* background color */
-.bg-color--default{background-color: #d1d2d3;}
-.bg-color--primary{background-color: #f95c3c;}
-.bg-color--secondary{background-color: #43484c;}
-.bg-color--positive{background-color: #3eb5ac;}
-.bg-color--negative{background-color: #f84545;}
-.bg-color--black{background-color: #353630;}
-.bg-color--dark-grey{background-color: #999a94;}
-.bg-color--grey{background-color: #d1d2d3;}
-.bg-color--light-grey{background-color: #f4f4f4;}
-.bg-color--white{background-color: #fff;}
+.bg-color--default{background-color: $grey;}
+.bg-color--primary{background-color: $primary-color;}
+.bg-color--secondary{background-color: $secondary-color;}
+.bg-color--positive{background-color: $positive-color;}
+.bg-color--negative{background-color: $negative-color;}
+.bg-color--black{background-color: $black;}
+.bg-color--dark-grey{background-color: $dark-grey;}
+.bg-color--grey{background-color: $grey;}
+.bg-color--light-grey{background-color: $light-grey;}
+.bg-color--white{background-color: $white;}
 
 /*.text color */
-.color--default{color: #d1d2d3;}
-.color--primary{color: #f95c3c;}
-.color--secondary{color: #43484c;}
-.color--positive{color: #3eb5ac;}
-.color--negative{color: #f84545;}
-.color--black{color: #353630;}
-.color--dark-grey{color: #999a94;}
-.color--grey{color: #d1d2d3;}
-.color--light-grey{color: #f4f4f4;}
-.color--white{color: #fff;}
+.color--default{color: $grey;}
+.color--primary{color: $primary-color;}
+.color--secondary{color: $secondary-color;}
+.color--positive{color: $positive-color;}
+.color--negative{color: $negative-color;}
+.color--black{color: $black;}
+.color--dark-grey{color: $dark-grey;}
+.color--grey{color: $grey;}
+.color--light-grey{color: $light-grey;}
+.color--white{color: $white;}
 
 /*-------------------------*/
 /* $Typography
