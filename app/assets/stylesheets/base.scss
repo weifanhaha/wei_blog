@@ -487,6 +487,13 @@ template {
 }
 
 
+/* Bootstrap
+   ========================================================================== */
+.row{
+  padding: 0;
+  margin: 0;
+}
+
 /*-------------------------*/
 /* $Color
 ---------------------------*/
@@ -543,7 +550,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 h1 {
   font-family: "Helvetica", "Noto Sans TC", "Roboto", "Arial", sans-serif;
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 400;
   line-height: 1.35;
   letter-spacing: -0.02em;
@@ -552,7 +559,7 @@ h1 {
 }
 h2 {
   font-family: "Helvetica", "Noto Sans TC", "Roboto", "Arial", sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
   line-height: 48px;
   margin-top: 24px;
@@ -560,7 +567,7 @@ h2 {
 }
 h3 {
   font-family: "Helvetica", "Noto Sans TC", "Roboto", "Arial", sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 40px;
   margin-top: 24px;
@@ -594,11 +601,20 @@ h6 {
   margin-bottom: 16px;
 }
 p {
+  font-family: "Helvetica", "Noto Sans TC", "Roboto", "Arial", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0;
   margin-bottom: 16px;
+  // for summer note
+  &.p1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    margin-bottom: 16px;
+  }
 }
 /* link */
 a{

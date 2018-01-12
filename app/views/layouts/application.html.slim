@@ -10,11 +10,11 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
 
   body
-    = render "shared/header"
-    .row
-      .col-sm-9
-        .container-fluid
-          =yield
-      .col-sm-3
-        #about-author
-          = render "shared/aboutme"
+    .container-fluid style="padding: 0px;"
+      = render "shared/header"
+      .row
+        .col-sm-9
+            =yield
+        .col-sm-3
+          #about-author
+            = render "shared/aboutme"
