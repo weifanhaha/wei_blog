@@ -508,6 +508,10 @@ $grey: #d1d2d3;
 $light-grey: #f4f4f4;
 $white: #fff;
 
+*{
+  color: $black;
+}
+
 /* background color */
 .bg-color--default{background-color: $grey;}
 .bg-color--primary{background-color: $primary-color;}

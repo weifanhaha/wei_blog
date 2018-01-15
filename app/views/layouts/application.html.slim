@@ -12,9 +12,10 @@ html
   body
     .container-fluid style="padding: 0px;"
       = render "shared/header"
-      .row
-        .col-sm-9
-            =yield
-        .col-sm-3
-          #about-author
-            = render "shared/aboutme"
+      .container
+        .row
+          .col-sm-8
+              =yield
+          .col-sm-3.col-sm-offset-1
+            #about-author
+              = render "shared/aboutme"

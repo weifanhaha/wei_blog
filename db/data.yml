@@ -1,0 +1,206 @@
+
+---
+ar_internal_metadata:
+  columns:
+  - key
+  - value
+  - created_at
+  - updated_at
+  records: 
+  - - environment
+    - development
+    - '2017-12-22 00:56:19.296515'
+    - '2017-12-22 00:56:19.296515'
+
+---
+blogs:
+  columns:
+  - id
+  - title
+  - content
+  - image
+  - category
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - My first blog! 關於這個部落格
+    - <p>這個 blog 是筆者拿來練習 ruby on rails 的開發時做出來的作品，同時，我也希望自己能持續的撰寫文章，記錄程式開發的過程，或是簡單的記錄一些生活。</p><p><br></p><p>在第一個網站的
+      side-project ，想送給大家一句話，希望也能勉勵自己，並持之以恆，祝大家在不久的將來成為一方之霸。</p><p><br></p><blockquote><p>When
+      you want something,</p><p>all the universe conspires in helping you to achieve
+      it. -</p><p>- The Alchemist</p></blockquote><p><br></p><p>先來說說我想給這個部落格的定位吧，關於
+      ruby on rails 教學的文章，網路上已經找得到完整的教學文章了，所以筆者不會系統化的整理教學 ROR 的概念。在這個 Blog 上，筆者會分享一些自己做的
+      side project，也許會提到部分程式碼，也或許不會，所以不用抱著來這裡可以看到一步一步做出一個專案的期待，我想帶給大家的是 inspiration，希望能和大家一起享受做出自己的作品這回事。</p><p><br></p><p>如果自己寫程式有什麼心得，或是對於某些用詞的筆記，也會寫到這個部落格上，跟大家分享。每個人在解釋名詞的方式都不盡相同，如果我的解釋方式剛好某些讀者更容易吸收，那會是我的榮幸
+      :)</p><p><br></p><p>接下來想跟大家聊聊筆者想做這個 Blog 的背景，我在某間社會企業實習時，開始接觸 ruby on rails
+      ，過程中一邊學，一邊就投入了公司專案的開發，公司有三個人負責這個專案，過程中很少能夠去檢視整個專案每個細節的架構，包括怎麼從無到有做出一個“沒有作業感“的專案，也讓我萌生了想要寫出一些自己可以使用的網站的想法。</p><p><br></p><p>在學習的初期，我看了一位國外設計師兼工程師的
+      12 in 12 rails challenge ，並且模仿他做了幾個小專案：用 rails 刻出類似 raddit, pinterest 的網站，而後明白實作一個專案是學習這個框架最快的方式。在過程中自然而然會更熟悉
+      MVC 的架構，更加了解 CRUD 在幹嘛，而且，沒有比從無到有生出一個專案更有成就感的事了！</p><p><br></p><p>這個 Blog 就是在上述背景下誕生的產物，因為是前期的作品，還在慢慢摸索，希望他可以越來越精緻，完成筆者曾經想要設計一個作品的小小願望，也會努力的讓這個網站常常更新。</p><p><br></p><p>最後附上這個網站的
+      github:&nbsp;<a href="https://github.com/weifanhaha/wei_blog">https://github.com/weifanhaha/wei_blog</a></p><p><br></p><p><br></p><p><br></p><p><br></p>
+    - icon-06.png
+    - test
+    - '2017-12-24 00:54:43.706316'
+    - '2017-12-30 00:31:28.963111'
+  - - 2
+    - test2
+    - '<span style="color: rgb(0, 0, 0);">Lorem ipsum dolor sit amet, consectetur
+      adipisicing elit. Maxime repellat culpa sint quod doloribus, laudantium nulla
+      sunt fugit numquam dolorem iusto a ratione amet earum incidunt placeat velit
+      eveniet dolore.</span><span style="color: rgb(0, 0, 0);">Lorem ipsum dolor sit
+      amet, consectetur adipisicing elit. Maxime repellat culpa sint quod doloribus,
+      laudantium nulla sunt fugit numquam dolorem iusto a ratione amet earum incidunt
+      placeat velit eveniet dolore.</span><span style="color: rgb(0, 0, 0);">Lorem
+      ipsum dolor sit amet, consectetur adipisicing elit. Maxime repellat culpa sint
+      quod doloribus, laudantium nulla sunt fugit numquam dolorem iusto a ratione
+      amet earum incidunt placeat velit eveniet dolore.</span>'
+    - icon-06.png
+    - test
+    - '2017-12-24 00:55:56.579369'
+    - '2018-01-08 09:52:24.739226'
+  - - 6
+    - 關於這個 Blog
+    - "<p>這個 blog 是我拿來練習 ruby on rails 的開發速度的，同時，我也希望自己能持續的撰寫文章，記錄程式開發的過程，或是簡單的記錄一些生活。</p><p><br></p><p>在第一個網站的
+      side-project ，想送給自己一句話，希望能勉勵自己，並持之以恆，在不久的將來成為一方之霸。</p><p><br></p><blockquote><p>When
+      you want something,</p><p>all the universe conspires in helping you to achieve
+      it. -</p><p>- The Alchemist</p></blockquote><p><br></p><p><br></p>"
+    - icon-06.png
+    - 程式 / rails
+    - '2017-12-28 00:40:56.154234'
+    - '2017-12-28 00:40:56.154234'
+  - - 7
+    - "[ 學習筆記 ] 以 Rails 為例看網站 MVC 架構"
+    - "<p class=\"p1\"><span class=\"s1\">MVC - </span>在我剛開始接觸網站的時候，常常聽到這個名詞，而後來學習寫<span
+      class=\"s1\"> Ruby on Rails</span>，發現<span class=\"s1\"> Rails </span>這個框架也是採用<span
+      class=\"s1\">MVC </span>這個架構，也發現現在很多網站是採用這個概念去架設的。</p><h3>那到底 MVC 是什麼？</h3><p
+      class=\"p1\">一個網站的元素可以分成三個部分：資料的存取、畫面的呈現、流程的控制，分別對應到<span class=\"s1\">MVC </span>的<span
+      class=\"s1\"> Model</span>、<span class=\"s1\">View</span>、<span class=\"s1\">Controller</span>。小型的專案也許可以把這些事情寫在一起，但是到了大型的專案，混在一起寫非常的不方便管理，因此會把這三件事情拆開，接下來我會更詳細一點的分別解釋<span
+      class=\"s1\"> MVC </span>並且以<span class=\"s1\"> Rails </span>上的程式碼當做例子讓讀者更好理解。</p><h4>Model</h4><p>\r\n\r\n\r\n\r\n\r\n<style
+      type=\"text/css\">\r\np.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px '.PingFang
+      TC'; color: #454545}\r\np.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px
+      'Helvetica Neue'; color: #454545; min-height: 14.0px}\r\nspan.s1 {font: 12.0px
+      'Helvetica Neue'}\r\n</style>\r\n\r\n\r\n\r\n\r\n\r\n\r\n</p><p class=\"p1\">首先是
+      Model，負責資料的存取。你會有一個地方儲存網站的資料，可能是<span class=\"s1\"> MySQL </span>等的資料庫，但是要如何把資料從資料庫提取到網站做使用呢？這就是<span
+      class=\"s1\"> Model </span>在做的事了， Model 是一個你的網站和資料庫溝通的媒介，你可以透過它來取得你希望條件的資料。</p><p
+      class=\"p1\">在 Rails 中， Model 都繼承了ApplicationRecord ，這個類別的作用是透過 Ruby 物件導向的語法來操作
+      SQL 語法，<span style=\"color: rgb(69, 69, 69);\">在 Rails 的 Model 中，你就可以自己定義 function
+      來抓取這個資料，不用再切換過去寫 SQL 語法，因為程式已經會幫你做這件事情了！ 定義完後只要在 Controller 呼叫，就可以取得這些條件的活動資料了。</span></p><p
+      class=\"p1\"><span style=\"color: rgb(69, 69, 69); letter-spacing: 0px;\">以下圖為例，我想要取得已經結束的活動，可以定義一個
+      self.over ，條件是結束的日期在今天之前，並且把抓取到的資料以結束時間由現在到過去排列。或者我想要找現在開放報名的活動，條件是擁有 Accupass
+      購票網站的連結，一樣以結束時間排列，在 Model 中的程式碼就會像這樣。</span></p><pre><font color=\"#ff0000\">class</font><font
+      color=\"#454545\"> </font><font color=\"#00ff00\">Activity &lt; ApplicationRecord</font><font
+      color=\"#454545\">\r\n  def self.over\r\n    Activity.where(\"end_at &lt; ?\",
+      Time.now).order(end_at: :desc)\r\n  end\r\n\r\n  def self.open_registraion\r\n
+      \   Inspire.where.not(accupass_link: nil).order(end_at: :desc)\r\n  end\r\nend</font>\r\n</pre><div><br></div><p
+      class=\"p1\">另外， Model 中也可以設定不同資料表之間的關聯，以上述活動為例，一個活動會有多個參加者，我們就可以在 Activity
+      的 Model 中加入&nbsp;</p><pre>class Activity &lt; ApplicationRecord\r\n  has_many
+      :speaker\r\nend</pre><p>也會在 Attendee 的 Model 中加入</p><pre>class Attendee &lt;
+      ApplicationRecord<br>&nbsp; belongs_to :activity<br>end</pre><p>如此就可以建立兩張資料表的一對多關聯，關於資料表的關聯，日後可能會再寫一篇文章詳細說明，在這邊就簡單帶過。</p><h4>View</h4><p>View
+      負責的是畫面的呈現，我個人認為 View 切掉與資料的關聯後，在做的事情和靜態網頁很相像。<span style=\"letter-spacing: 0px;\">寫過靜態網頁的人大概都知道，靜態網頁大抵由
+      Html, Css, Javascript 三個元素構成，在 Rails 中也會有相對應撰寫這些程式碼的地方，不同的地方在於， Rails 在 View
+      採用的是 erb 的語法，可以讓工程師更容易把資料跟 View 做連結。</span></p><p>以這個部落格網站的程式碼為例，在 view 中，我可以透過
+      Controller 幫我抓到所有 Blog 文章的資料（在 Controller 的地方會更詳細說明）erb 特有的 &lt;%- %&gt; 語法可以讓我使用
+      each 與 link_to 等 function，而 &lt;%= %&gt; 語法則可以讓我把 blog.title 資料直接抓到前端，以 html
+      h1 tag 的方式呈現出來。</p><p>（補充：範例的程式碼是簡化的 slim 語法，能以更輕便的方式撰寫 erb 程式碼，&lt;%- %&gt;
+      就被簡化成 - ，而 &lt;%= %&gt; 也被簡化成 =&nbsp; ， 若想在自己的程式碼使用 slim 或是 haml 等較輕便的語法，可以在
+      gemfile 安裝，並注意存檔的類型）</p><pre>.index-list<br>&nbsp; - @blogs.each do |blog|<br>&nbsp;
+      &nbsp; .col-sm-12<br>&nbsp; &nbsp; &nbsp; = link_to blog do<br>&nbsp; &nbsp;
+      &nbsp; &nbsp; .blog-block<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; h1<br>&nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = blog.title<br>&nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; p<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+      raw_index_content(blog.content)</pre><h4>Controller</h4><p>最後就是我們的 Controller
+      了，Controller 負責流程的控制，我進到某個頁面要做什麼事，就是在 Controller 的地方寫下相對應的程式碼。舉例來說，我希望這個頁面可以列舉出所有的
+      blog，那我可以在進到 index 這一頁時，先把所有的 Blog 抓下來，我就可以在 BlogController 定義一個 index 的動作。</p><pre>class
+      BlogController &lt; ApplicationController<br>&nbsp;def index<br>&nbsp; &nbsp;
+      @blogs = Blog.all<br>&nbsp; end<br>end</pre><p>這樣我們進到 index 的頁面時，就會有所有 Blog
+      的資料，並且如剛剛 View 所說的，可以用 @blogs 呼叫他了。</p><p>在 Rails 的慣例中，我們會在 Controller 定義 CRUD
+      對應的動作，這就又需要一篇文章拉出來講了。</p><h4>Rails 與 MVC</h4><p>其實 Rails 的檔案架構與 MVC 的關係可以說是密不可分，<span
+      style=\"letter-spacing: 0px;\">秉持著 Convention over Configuration 的原則， 處理 M、</span><span
+      style=\"letter-spacing: 0px;\">V、C 三個動作的檔案都有相對應的資料夾，且 Rails 提供的許多指令，也能讓工程師快速的建立相對應
+      MVC 的檔案與路徑，看到新的專案的時候也能更為輕鬆的了解這個專案的架構。筆者建議，在開始一個 Rails 專案時，一定要想過 MVC 要怎麼規劃，而後就可以循著
+      Rails 的慣例，一步步架構出屬於自己的網站。</span></p><p><br></p><p><br></p><p><br></p><p class=\"p1\"><br></p><p
+      class=\"p1\"><br></p>"
+    - 
+    - Rails 程式語言 學習 筆記 網站架構
+    - '2018-01-11 03:26:38.011607'
+    - '2018-01-12 08:44:26.068430'
+  - - 8
+    - "[ 學習筆記 ] GTM 概念與簡單操作"
+    - "<h3>什麼是 GTM?</h3><p>GTM <span style=\"color: rgb(69, 69, 69); font-family:
+      &quot;.PingFang TC&quot;; font-size: 16px; letter-spacing: 0px;\">是</span><span
+      class=\"s1\"> Google Tag Manager </span><span style=\"color: rgb(69, 69, 69);
+      font-family: &quot;.PingFang TC&quot;; font-size: 16px; letter-spacing: 0px;\">的縮寫，顧名思義就是讓你方便管理</span><span
+      class=\"s1\"> GA</span><span style=\"color: rgb(69, 69, 69); font-family: &quot;.PingFang
+      TC&quot;; font-size: 16px; letter-spacing: 0px;\">,</span><span class=\"s1\">
+      Pixel </span><span style=\"color: rgb(69, 69, 69); font-family: &quot;.PingFang
+      TC&quot;; font-size: 16px; letter-spacing: 0px;\">等等不同的</span><span class=\"s1\">
+      Tag</span><span style=\"color: rgb(69, 69, 69); font-family: &quot;.PingFang
+      TC&quot;; font-size: 16px; letter-spacing: 0px;\">，只要依指示把程式碼嵌入網頁，後來的操作就很接近直覺的圖像化操作，而不用一直以寫</span><span
+      class=\"s1\"> jquery </span><span style=\"color: rgb(69, 69, 69); font-family:
+      &quot;.PingFang TC&quot;; font-size: 16px; letter-spacing: 0px;\">程式碼</span><span
+      class=\"s1\"> send event </span><span style=\"color: rgb(69, 69, 69); font-family:
+      &quot;.PingFang TC&quot;; font-size: 16px; letter-spacing: 0px;\">了（下面的一些例子都會偏向
+      GA。</span></p><h3>新增帳戶與新增代碼（以 GA 為例）</h3><p class=\"p1\">關於新增帳戶，我是參考這篇文章：</p><p
+      class=\"p1\"><a href=\"https://www.startdo.tw/google-tag-manager/beginners-guide-to-google-tag-manager/\"
+      target=\"_blank\">Google Tag Maneger 新手教學 (一)：申請帳戶</a></p><p class=\"p2\"><br></p><p
+      class=\"p1\">新增完帳戶和容器後，就要來設定你到底要搜集哪些資訊了，可以在<span class=\"s1\"> GTM </span>新增代碼來設定，我覺得新增代碼這件事很像使用<span
+      class=\"s1\"> GA </span>時想知道使用者瀏覽哪些頁面、點擊哪些按鈕，要埋相對應的<span class=\"s1\"> pageview
+      </span>和<span class=\"s1\"> event </span>。</p><p class=\"p2\"><br></p><p class=\"p1\">在<span
+      class=\"s1\"> GTM </span>中，只要進到圖像化的介面，有很多模組可以組裝出<span class=\"s1\"> analytics.js
+      </span>的功能。舉例來說在原本的網頁，我們可能會用<span class=\"s1\"> jquery </span>寫</p><pre>$('.signUp').click(function(){<br>&nbsp;
+      &nbsp; &nbsp; ga('send', 'event', {<br>&nbsp; &nbsp; &nbsp; &nbsp; eventCategory:
+      '註冊',<br>&nbsp; &nbsp; &nbsp; &nbsp; eventAction: '點擊',<br>&nbsp; &nbsp; &nbsp;
+      &nbsp; eventLabel: page_name<br>&nbsp; &nbsp; &nbsp; });</pre><p class=\"p2\"><br></p><p
+      class=\"p1\">在 GTM 中，這段程式碼可以被分成代碼與觸發 ( Trigger ) 兩個層面去新增，代碼就像是我們要搜集的資訊，以事件來看的話可以分別對應到
+      GA event 有的四個 Data Field</p><p class=\"p1\"></p><p class=\"p1\">而觸發條件則像是 jquery
+      的</p><pre style=\"font-size: 14px; line-height: 1.42857;\">$('.signUp').click(function(){
+      ... })</pre><p class=\"p1\">在 GTM 中有許多設定好的模組可以直接使用，像以下模組組裝的效果，就有上述 jquery 程式碼的效果</p><p
+      class=\"p1\"></p><p class=\"p1\"><br></p><p class=\"p1\"><br></p><p class=\"p1\">關於新增代碼的細節與步驟，可以看這篇文章：</p><p
+      class=\"p1\"><a href=\"https://www.startdo.tw/google-tag-manager/google-tag-manager-how-to-install-google-analytics-code/\"
+      target=\"_blank\">Google Tag Manager 新手教學 (二) ：如何加入 Google Analytics 代碼</a></p><h3>GTM
+      與 FB Pixel</h3><p>另外，如果想要整合 FB Pixel ，很遺憾的， GTM 並沒有像 GA 那樣的模組可以直接使用，比須到 Pixel
+      端去設定，並且把程式碼貼回 GTM 的控制台中，詳細的步驟可以參考這篇</p><p><a href=\"https://www.startdo.tw/google-tag-manager/google-tag-manager-how-to-install-facebook-pixel-code/\"
+      target=\"_blank\">Google Tag Manager 教學 (三)：如何安裝 Facebook 像素及事件像素？</a></p><p
+      class=\"p1\"><span class=\"s1\">關於 GTM 的小筆記先到這邊，如有補充會繼續更新。</span></p><style
+      type=\"text/css\">\r\np.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px '.PingFang
+      TC'; color: #454545}\r\np.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px
+      'Helvetica Neue'; color: #454545; min-height: 14.0px}\r\np.p3 {margin: 0.0px
+      0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #454545}\r\np.p4 {margin:
+      0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica Neue'; color: #e4af0a}\r\nspan.s1
+      {font: 12.0px 'Helvetica Neue'}\r\nspan.s2 {font: 12.0px '.PingFang TC'}\r\n</style><style
+      type=\"text/css\">\r\np.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px 'Helvetica
+      Neue'; color: #454545}\r\np.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px
+      'Helvetica Neue'; color: #e4af0a}\r\nspan.s1 {font: 12.0px '.PingFang TC'}\r\n</style>"
+    - 
+    - 學習/筆記/GTM/程式設計
+    - '2018-01-12 08:36:10.957838'
+    - '2018-01-15 08:52:41.436713'
+
+---
+users:
+  columns:
+  - id
+  - email
+  - encrypted_password
+  - reset_password_token
+  - reset_password_sent_at
+  - remember_created_at
+  - sign_in_count
+  - current_sign_in_at
+  - last_sign_in_at
+  - current_sign_in_ip
+  - last_sign_in_ip
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - aily34809@gmail.com
+    - "$2a$11$GyuzA.ehOGnTGRSwreLVQu7yOrgtLpl0UVT6PkFJpKTiXBBJO/HIW"
+    - 
+    - 
+    - 
+    - 6
+    - '2018-01-15 08:52:18.087908'
+    - '2017-12-30 00:03:12.721885'
+    - 127.0.0.1
+    - 127.0.0.1
+    - '2017-12-29 07:44:27.161471'
+    - '2018-01-15 08:52:18.088730'

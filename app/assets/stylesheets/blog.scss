@@ -3,9 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import 'import';
 
-*{
-  color: #353630;
-}
+/*-------------------------*/
+/* $Shared
+---------------------------*/
 
 .header{
   text-align: center;
@@ -26,15 +26,29 @@
   }
 }
 
+/* About Me */
+#about-author{
+
+}
+
+
+/*-------------------------*/
+/* $Index-page
+---------------------------*/
+
 .index-list{
-  text-align: center;
+  text-align: left;
   background-color: #f0f0f0;
 
   .blog-block{
     padding: 50px 20px;
     // margin: 10px 0;
     border-bottom: 2px solid #353630;
+    h2{
+      color: $primary-color;
+    }
   }
+
 }
 
 #about-author{
@@ -56,8 +70,14 @@
     letter-spacing: 0;
     margin-bottom: 16px;
   }
-  h6{
+  h2, h3, h4, h5, h6{
     color: $primary-color;
+  }
+  a{
+    color: $black;
+    &:hover{
+      color: $secondary-color;
+    }
   }
 
 }
