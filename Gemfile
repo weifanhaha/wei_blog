@@ -29,9 +29,17 @@ gem 'jquery-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.3'
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+group :development, :test do
+  gem 'byebug', platform: :mri
+  gem 'sqlite3'
+  gem 'mysql2'
+end
+
+group :production do
+  gem 'pg'
+end
 # Use mysql2 as the database
-gem 'mysql2'
+# gem 'mysql2'
 # We can use rake db:data:dump/load to save/load the database
 gem 'yaml_db'
 
