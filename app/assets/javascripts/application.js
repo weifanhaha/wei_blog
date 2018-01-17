@@ -15,5 +15,6 @@
 //= require_tree .
 //= require bootstrap-sprockets
 //= require jquery
-//= require bootstrap
+//= require jquery_ujs
+//= require bootstrap.min   // Add it after jquery and jquery_ujs
 //= require summernote
