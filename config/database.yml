@@ -39,8 +39,14 @@ test:
   database: "weiBlog_test"
 
 production:
-  <<: *default
+  # <<: *default
   # database: db/production.sqlite3
+  adapter: mysql2
+  encoding: utf8
+  pool: 5
+  timeout: 5000
+  host: 127.0.0.1
+  sslmode: 'require'
   username: "root"
   password: "wei840809"
   database: "weiBlog"

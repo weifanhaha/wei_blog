@@ -640,6 +640,37 @@ hr{
   margin-bottom: 32px;
 }
 
+/* RWD-mobile*/
+@media screen and (max-width: 762px){
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 16px;
+}
+p {
+  font-size: 14px;
+  // for summer note
+  &.p1{
+    font-size: 14px;
+  }
+}
+
+}
+
+
 
 /*-------------------------*/
 /* $Utility
