@@ -1,15 +1,35 @@
 / .row
   .col-sm-10.col-sm-offset-1
 .index-list
-  - @blogs.each do |blog|
+  - valid_blogs.each do |blog|
     .block-link
       = link_to blog do
         .blog-block
           h2
             = blog.title
+          p.categories
+            - blog.category.split("/").each do |c|
+              span.category
+                = c
           /.image
             - if blog.image.present?
               = image_tag(blog.image.url)
           p
             = raw_index_content(blog.content)
+  - if user_signed_in?
+    br
+    br
+    h4 ----- 草稿區-----
+    - invalid_blogs.each do |blog|
+      .invalid-block-link
+        = link_to blog do
+          .blog-block
+            h2
+              = blog.title
+            p.categories
+              - blog.category.split("/").each do |c|
+                span.category
+                  = c
+            p
+              = raw_index_content(blog.content)
 

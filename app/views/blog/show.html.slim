@@ -4,6 +4,11 @@
   .article
     h2
       = @blog.title
+    p.categories
+      - @blog.category.split("/").each do |c|
+        span.category
+          = c
+
     .image
       - if @blog.image.present?
         = image_tag(@blog.image.url)

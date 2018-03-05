@@ -68,6 +68,13 @@
   }
 
 }
+
+.invalid-block-link{
+  opacity: 0.8;
+  .blog-block{
+    padding-top: 10px;
+  }
+}
 /*---------- RWD ----------*/
 /* mobile */
 @media screen and (max-width: 762px){
@@ -94,7 +101,7 @@
     color: $primary-color;
   }
   a{
-    color: $black;
+    color: $positive-color;
     &:hover{
       color: $secondary-color;
     }
@@ -102,5 +109,21 @@
 
 }
 
+/* Category Btn */
+p.categories{
+  margin-bottom: 24px;
+}
 
+span.category{
+  padding: 5px;
+  margin: 5px;
+  border: $secondary-color solid 2px;
+  border-radius: 10px;
+  color: $secondary-color;
+  cursor: pointer;
+  // &:hover{
+  //   background-color: $secondary-color;
+  //   color: $white;
+  // }
+}
 
