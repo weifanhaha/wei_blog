@@ -3,11 +3,18 @@
   = f.text_field :title, class: 'form-control', placeholder:"文章標題"
 .form-group
   = f.label :category, 'Category'
-  = f.text_field :category, class: 'form-control',placeholder:"例：生活 / 旅遊"
+  = f.text_field :category, class: 'form-control',placeholder:"例：程式/旅遊"
 
 .form-group
   = f.label :image, 'Image'
   = f.file_field :image, as: :file, class: 'form-control'
+  = f.hidden_field :image_cache
+  / p
+    label My Image
+    = image_tag(@blog.image.url) if @blog.image?
+    = f.file_field :image, as: :file, class: 'form-control'
+    = f.hidden_field :image_cache
+
 
 .form-group
   = f.label :content, 'Content'
@@ -16,3 +23,4 @@
     $(document).ready(function(){
       $("textarea[name='blog[content]']").summernote({height: 500});
     });
+
