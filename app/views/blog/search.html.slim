@@ -1,0 +1,17 @@
+H1 搜尋結果
+.index-list
+  - @blogs.each do |blog|
+    .block-link
+      = link_to blog do
+        .blog-block
+          h2
+            = blog.title
+          p.categories
+            - blog.category.split("/").each do |c|
+              span.category
+                = c
+          /.image
+            - if blog.image.present?
+              = image_tag(blog.image.url)
+          p
+            = raw_index_content(blog.content)

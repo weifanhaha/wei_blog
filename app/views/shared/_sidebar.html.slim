@@ -6,3 +6,10 @@
     | 張葳凡
   p
     | 正在練習當個全端工程師，目前用 Ruby on Rails 開發網頁、做一些自己的 Side Project，希望能在學習的過程中做一些筆記，讓經歷一樣問題的人或是以後的自己能更快解決問題。
+
+#search-bar
+  = form_tag search_blog_index_path, id: 'search-form', method: :GET do
+    = text_field_tag :search, nil, placeholder: '搜尋'
+    = submit_tag '搜尋'
+  / .input-group
+  /   = text_field_tag

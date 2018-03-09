@@ -1,7 +1,8 @@
 class BlogController < ApplicationController
   before_action :find_blog, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, except: [:index, :show]
+  before_action :authenticate_user!, except: [:index, :show, :search]
   layout "console", only: [:edit, :new]
+  include BlogHelper
 
   def index
     @blogs = Blog.all
@@ -39,6 +40,12 @@ class BlogController < ApplicationController
   def destroy
     @blog.destroy
     redirect_to root_path
+  end
+
+  def search
+    @blogs = valid_blogs.where('title LIKE ?',"%#{params[:search]}%")
+
+    flash[:notice] = "搜尋完畢...#{params[:search]}"
   end
 
   private
